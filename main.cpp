@@ -153,3 +153,58 @@ int main()
 // }
 
 // prob 7
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int total_sum = 0;
+//     int count = 0;
+//     int number;
+//
+//     while (total_sum <= 100) {
+//         cout << "Enter a number: ";
+//         cin >> number;
+//
+//         total_sum += number;
+//         count++;
+//
+//         if (total_sum >= 100) {
+//             break;
+//         }
+//     }
+//
+//     cout << "Sum exceeded 100! Total sum: " << total_sum << count << endl;
+//     cout << "Total numbers entered: " << count << endl;
+//     return 0;
+// }
+
+//prob8
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     double balance = 500;
+//     double withdrawal;
+//     cout << "Your balance: $" << balance << endl;
+//
+//     while (balance > 0) {
+//
+//         cout << "Enter withdrawal amount (or 0 to cancel): ";
+//         cin >> withdrawal;
+//
+//         if (withdrawal == 0) {
+//             break;
+//         }
+//
+//         if (withdrawal > balance) {
+//             cout << "Insufficient funds!" << endl;
+//         } else {
+//             balance -= withdrawal;
+//             cout << "Remaining balance: $" << balance << endl;
+//         }
+//         if (balance == 0) {
+//             cout << "Remaining balance: $0" << endl;
+//             break;
+//         }
+//     }
+//     return 0;
+// }
